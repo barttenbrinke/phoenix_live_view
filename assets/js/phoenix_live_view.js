@@ -309,7 +309,7 @@ class LiveUploader {
   }
 
   static activeFiles(input){
-    return (DOM.private(input, "files") || []).filter(f => UploadEntry.isActive(input, f))
+    return ((input.files") || []).filter(f => UploadEntry.isActive(input, f))
   }
 
   static inputsAwaitingPreflight(formEl){
